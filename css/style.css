@@ -1,0 +1,166 @@
+/* Root */
+:root {
+  ---yellow: #ffa627;
+  ---red: #b10001;
+  ---white: #ebd7d7;
+  ---black: #222222;
+  ---light: #d8252b;
+  --lightgrey: #eeeeee;
+  --left: #6b0000;
+}
+/* Root */
+
+/* Body */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+body {
+  background-image: url(../img/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*header*/
+.nav-link {
+  color: var(---white);
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: var(---yellow);
+}
+.nav-btn button {
+  font-size: 10px;
+  padding: 5px;
+}
+/*header*/
+/*banner & about*/
+.banner-content,
+.about-content {
+  padding-top: 150px;
+}
+.banner-details,
+.about-details {
+  font-size: 14px;
+}
+.banner-btn a,
+.about-btn a {
+  font-size: 8px;
+}
+.banner-btn i,
+.banner-btn a,
+.about-btn i,
+.about-btn a {
+  display: flex;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*banner & about*/
+
+/*menu*/
+.box {
+  background: linear-gradient(90deg, var(--left), var(---red));
+  box-shadow: 0px 0px 20px #6b00007a;
+}
+.box:hover {
+  transform: scale(1.05, 1.05);
+  transition: 1s;
+  box-shadow: 0px 0px 40px #ffa5275e;
+}
+.menu-heading h1 {
+  font-size: 22px;
+  padding: 15px;
+}
+
+.menu-icon i,
+.cart i {
+  font-size: 30px;
+  padding: 18px;
+  color: var(---yellow);
+}
+.cart i:hover,
+.menu-icon i:hover {
+  background: var(---yellow);
+  color: var(---white);
+  padding: 18px;
+}
+/*menu*/
+
+/*cat*/
+.catagory-card {
+  background: url(../img/c1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+}
+.catagory-card-2 {
+  background: url(../img/c2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+}
+/*cat*/
+
+/*order*/
+.order-card-title,
+.order-star i,
+.card-body p {
+  font-size: 12px;
+}
+.pagination i {
+  cursor: pointer;
+  margin: 0 5px;
+}
+/*order*/
+/*contact area*/
+.contact-btn h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.time h2,
+.last p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.time span,
+.search h4,
+.menu-desc p,
+.footer-contact h4,
+.footer-contact span,
+.last p{
+  font-size: 12px;
+}
+/*contact area*/
+
+/*footer*/
+put::placeholder{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.search-btn i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  padding: 7px;
+}
+/*footer*/
